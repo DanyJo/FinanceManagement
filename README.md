@@ -1,5 +1,5 @@
 # FinanceManager
-## Uni project for the Web Java Technologies course, FMI 2023
+## Uni project for the Web Java Technologies course, FMI, 2023
 **The application is implemented using Java 17, Spring Boot 3.0.5 and PostgreSQL**  
  
 Finance Managemr helps with managing your finanaces by tracking different savings, budgets, financial goals, incomes, expenses and investments by allowing you to:  
