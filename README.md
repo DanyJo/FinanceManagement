@@ -1,6 +1,5 @@
 # FinanceManager
 ## Uni project for the Web Java Technologies course, FMI 2023
-*TO DO*  
 **The application is implemented using Java 17, Spring Boot 3.0.5 and PostgreSQL**  
  
 Finance Managemr helps with managing your finanaces by tracking different savings, budgets, financial goals, incomes, expenses and investments by allowing you to:  
@@ -32,67 +31,88 @@ Finance Managemr helps with managing your finanaces by tracking different saving
 # Overview
 ## Database scheme
 
-![alt text](https://github.com/RadoSlav220/Personal-Finance-Management-App/blob/docs/db_scheme.png)
+![alt text](https://github.com/DanyJo/FinanceManager/blob/docs/db_scheme.png)
 
 ## Rest endpoints
 When the app is running the rest endpoints can be seen on <http://localhost:8080/swagger-ui/index.html> or <http://localhost:8080/rest-endpoints.html>
 
-### Investment
-#### *Endpoints*:
-
-![alt text](https://github.com/RadoSlav220/Personal-Finance-Management-App/blob/docs/Investment-endpoints.png)  
-
-#### *DTO*:   
-
-![alt text](https://github.com/RadoSlav220/Personal-Finance-Management-App/blob/docs/InvestmentDto.png)
-
 ### Saving
 #### *Endpoints*:
 
-![alt text](https://github.com/RadoSlav220/Personal-Finance-Management-App/blob/docs/saving-endpoints.png)  
-
-#### *DTOes*:   
-
-![alt text](https://github.com/RadoSlav220/Personal-Finance-Management-App/blob/docs/SavingDto.png)  
-
-![alt text](https://github.com/RadoSlav220/Personal-Finance-Management-App/blob/docs/SavingTransactionDto.png)  
-
-### Income
-#### *Endpoints*:
-
-![alt text](https://github.com/RadoSlav220/Personal-Finance-Management-App/blob/docs/Income-endpoints.png)  
+![alt text](https://github.com/DanyJo/FinanceManager/blob/docs/saving-endpoints.png) 
 
 #### *DTO*:   
 
-![alt text](https://github.com/RadoSlav220/Personal-Finance-Management-App/blob/docs/IncomeDto.png)
+![alt text](https://github.com/DanyJo/FinanceManager/blob/docs/saving-dto.png)  
+
+### Transaction  
+#### *Endpoints*:  
+
+![alt text](https://github.com/DanyJo/FinanceManager/blob/docs/transaction-endpoints.png)  
+
+#### *DTO*:  
+
+![alt text](https://github.com/DanyJo/FinanceManager/blob/docs/transaction-dto.png)  
 
 ### Goal
 #### *Endpoints*:
 
-![alt text](https://github.com/RadoSlav220/Personal-Finance-Management-App/blob/docs/Goal-endpoints.png)  
-
-#### *DTOes*:   
-
-![alt text](https://github.com/RadoSlav220/Personal-Finance-Management-App/blob/docs/GoalDto.png)  
-
-![alt text](https://github.com/RadoSlav220/Personal-Finance-Management-App/blob/docs/GoalContributionDto.png)  
-
-### Expense
-#### *Endpoints*:
-
-![alt text](https://github.com/RadoSlav220/Personal-Finance-Management-App/blob/docs/Expense-endpoints.png)  
+![alt text](https://github.com/DanyJo/FinanceManager/blob/docs/goal-endpoints.png)  
 
 #### *DTO*:   
 
-![alt text](https://github.com/RadoSlav220/Personal-Finance-Management-App/blob/docs/ExpenseDto.png)
+![alt text](https://github.com/DanyJo/FinanceManager/blob/docs/goal-dto.png)  
+
+### Contribution
+#### *Endpoints*:  
+
+![alt text](https://github.com/DanyJo/FinanceManager/blob/docs/contribution-endpoints.png)  
+
+#### *DTO*:  
+![alt text](https://github.com/DanyJo/FinanceManager/blob/docs/contribution-dto.png)  
 
 ### Budget
 #### *Endpoints*:
 
-![alt text](https://github.com/RadoSlav220/Personal-Finance-Management-App/blob/docs/Budget-endpoints.png)  
+![alt text](https://github.com/DanyJo/FinanceManager/blob/docs/budget-endpoints.png)  
 
-#### *DTOes*:   
+#### *DTO*:   
 
-![alt text](https://github.com/RadoSlav220/Personal-Finance-Management-App/blob/docs/BudegetDto.png)  
+![alt text](https://github.com/DanyJo/FinanceManager/blob/docs/budget-dto.png)  
 
-![alt text](https://github.com/RadoSlav220/Personal-Finance-Management-App/blob/docs/BudegetSpendingDto.png)
+### Saving
+#### *Endpoints*:  
+
+![alt text](https://github.com/DanyJo/FinanceManager/blob/docs/saving-endpoints.png)  
+
+#### *DTO*:   
+
+![alt text](https://github.com/DanyJo/FinanceManager/blob/docs/saving-dto.png)  
+
+### Expense
+#### *Endpoints*:
+
+![alt text](https://github.com/DanyJo/FinanceManager/blob/docs/expense-endpoints.png)  
+
+#### *DTO*:   
+
+![alt text](https://github.com/DanyJo/FinanceManager/blob/docs/expense-dto.png)  
+
+### Income
+#### *Endpoints*:
+
+![alt text](https://github.com/DanyJo/FinanceManager/blob/docs/income-endpoints.png)  
+
+#### *DTO*:   
+
+![alt text](https://github.com/DanyJo/FinanceManager/blob/docs/income-dto.png)  
+
+### Investment
+#### *Endpoints*:
+
+![alt text](https://github.com/DanyJo/FinanceManager/blob/docs/investment-endpoints.png)  
+
+#### *DTO*:   
+
+![alt text](https://github.com/DanyJo/FinanceManager/blob/docs/investment-dto.png)  
+
